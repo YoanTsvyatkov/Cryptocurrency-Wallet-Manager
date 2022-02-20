@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="44cef085-480f-4822-a828-0253c7054a33" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/byte-buddy-1.12.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/byte-buddy-agent-1.12.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/gson-2.8.5.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mockito-core-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mockito-junit-jupiter-4.0.0.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/objenesis-3.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/errors.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/users.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/cache/AssetsCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/command/CommandCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/command/CommandExecutor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/dto/AssetDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/dto/ErrorDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/enums/CommandType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/enums/TransactionType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/exception/BadRequestException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/exception/ForbiddenException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/exception/HttpException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/exception/TooManyRequestsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/exception/UnauthorizedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/exception/UserAlreadyExistException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/logger/FileLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/logger/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/model/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/repository/AssetRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/repository/LocalUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/repository/RemoteAssetRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/util/ApiResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/util/ErrorLoggerUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/util/FileConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/util/PasswordAuthentication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/crypto/server/cache/AssetsCacheTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/crypto/server/command/CommandExecutorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/crypto/server/repository/LocalUserRepositoryTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Record" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="24tBRaJANyTxaNdFkJ7WRiZQkXS" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../java-course/docs/01-code-analysis-tools/checkstyle/checkstyle.xml" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="org.infernus.idea.checkstyle.CheckStyleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="bg.sofia.uni.fmi.mjt.crypto.server.command" />
+      <recent name="bg.sofia.uni.fmi.mjt.crypto.server.repository" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\FMI\Java Course\Project\Cryptocurrency-Wallet-Manager\src" />
+      <recent name="D:\FMI\Java Course\Project\Cryptocurrency-Wallet-Manager\lib" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="bg.sofia.uni.fmi.mjt.crypto.server.cache" />
+      <recent name="bg.sofia.uni.fmi.mjt.crypto.server.repository" />
+      <recent name="bg.sofia.uni.fmi.mjt.crypto.server.command" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="bg.sofia.uni.fmi.mjt.crypto.server.command" />
+      <recent name="bg.sofia.uni.fmi.mjt.crypto.exception" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.bg.sofia.uni.fmi.mjt.crypto.server in Cryptocurrency-Wallet-Manager">
+    <configuration name="Client" type="Application" factoryName="Application" singleton="false" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="X-CoinAPI-Key" value="A02DA3F0-5354-4CB0-87C9-17D1E5136305" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="bg.sofia.uni.fmi.mjt.crypto.client.Client" />
+      <module name="Cryptocurrency-Wallet-Manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bg.sofia.uni.fmi.mjt.crypto.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Server" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <envs>
+        <env name="X-CoinAPI-Key" value="A02DA3F0-5354-4CB0-87C9-17D1E5136305" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="bg.sofia.uni.fmi.mjt.crypto.server.Server" />
+      <module name="Cryptocurrency-Wallet-Manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bg.sofia.uni.fmi.mjt.crypto.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AssetsCacheTest.testGetAssetsFromApiReturnsAssets" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cryptocurrency-Wallet-Manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bg.sofia.uni.fmi.mjt.crypto.server.cache.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bg.sofia.uni.fmi.mjt.crypto.server.cache" />
+      <option name="MAIN_CLASS_NAME" value="bg.sofia.uni.fmi.mjt.crypto.server.cache.AssetsCacheTest" />
+      <option name="METHOD_NAME" value="testGetAssetsFromApiReturnsAssets" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bg.sofia.uni.fmi.mjt.crypto in Cryptocurrency-Wallet-Manager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cryptocurrency-Wallet-Manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bg.sofia.uni.fmi.mjt.crypto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bg.sofia.uni.fmi.mjt.crypto" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="bg.sofia.uni.fmi.mjt.crypto.server in Cryptocurrency-Wallet-Manager" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Cryptocurrency-Wallet-Manager" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bg.sofia.uni.fmi.mjt.crypto.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bg.sofia.uni.fmi.mjt.crypto.server" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Server" />
+      <item itemvalue="Application.Client" />
+      <item itemvalue="JUnit.bg.sofia.uni.fmi.mjt.crypto in Cryptocurrency-Wallet-Manager" />
+      <item itemvalue="JUnit.AssetsCacheTest.testGetAssetsFromApiReturnsAssets" />
+      <item itemvalue="JUnit.bg.sofia.uni.fmi.mjt.crypto.server in Cryptocurrency-Wallet-Manager" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.bg.sofia.uni.fmi.mjt.crypto.server in Cryptocurrency-Wallet-Manager" />
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.Server" />
+        <item itemvalue="JUnit.bg.sofia.uni.fmi.mjt.crypto in Cryptocurrency-Wallet-Manager" />
+        <item itemvalue="JUnit.AssetsCacheTest.testGetAssetsFromApiReturnsAssets" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="44cef085-480f-4822-a828-0253c7054a33" name="Changes" comment="" />
+      <created>1644439996411</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1644439996411</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/dto/AssetDto.java</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/cache/AssetsCache.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/repository/RemoteAssetRepository.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/command/CommandExecutor.java</url>
+          <line>162</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/command/CommandExecutor.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/Server.java</url>
+          <line>134</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/Server.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/client/Client.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/client/Client.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/crypto/server/command/CommandExecutorTest.java</url>
+          <line>310</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/crypto/server/repository/LocalUserRepositoryTest.java</url>
+          <line>154</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/cache/AssetsCache.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Cryptocurrency_Wallet_Manager$CommandExecutorTest.ic" NAME="CommandExecutorTest Coverage Results" MODIFIED="1645191536809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bg.sofia.uni.fmi.mjt.crypto.server.command.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Cryptocurrency_Wallet_Manager$AssetsCacheTest.ic" NAME="AssetsCacheTest Coverage Results" MODIFIED="1645219148163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bg.sofia.uni.fmi.mjt.crypto.server.cache.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Cryptocurrency_Wallet_Manager$bg_sofia_uni_fmi_mjt_crypto_server_in_Cryptocurrency_Wallet_Manager.ic" NAME="bg.sofia.uni.fmi.mjt.crypto.server in Cryptocurrency-Wallet-Manager Coverage Results" MODIFIED="1645361201840" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bg.sofia.uni.fmi.mjt.crypto.server.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Cryptocurrency_Wallet_Manager$bg_sofia_uni_fmi_mjt_crypto_in_Cryptocurrency_Wallet_Manager.ic" NAME="bg.sofia.uni.fmi.mjt.crypto in Cryptocurrency-Wallet-Manager Coverage Results" MODIFIED="1645220404919" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bg.sofia.uni.fmi.mjt.crypto.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/Cryptocurrency_Wallet_Manager$LocalUserRepositoryTest.ic" NAME="LocalUserRepositoryTest Coverage Results" MODIFIED="1645217158505" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>bg.sofia.uni.fmi.mjt.crypto.server.repository.*</FILTER>
+    </SUITE>
+  </component>
+</project>

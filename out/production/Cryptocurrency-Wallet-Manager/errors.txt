@@ -1,0 +1,8 @@
+Connection reset
+java.net.SocketException: Connection reset
+	at java.base/sun.nio.ch.SocketChannelImpl.throwConnectionReset(SocketChannelImpl.java:394)
+	at java.base/sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:411)
+	at bg.sofia.uni.fmi.mjt.crypto.server.Server.getClientInput(Server.java:168)
+	at bg.sofia.uni.fmi.mjt.crypto.server.Server.start(Server.java:69)
+	at bg.sofia.uni.fmi.mjt.crypto.server.Server.main(Server.java:146)
+
