@@ -2,44 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44cef085-480f-4822-a828-0253c7054a33" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/byte-buddy-1.12.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/byte-buddy-agent-1.12.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/gson-2.8.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mockito-core-4.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mockito-junit-jupiter-4.0.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/objenesis-3.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/errors.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/users.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/Server.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/cache/AssetsCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/command/Command.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/command/CommandCreator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/command/CommandExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/dto/AssetDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/dto/ErrorDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/enums/CommandType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/enums/TransactionType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/exception/BadRequestException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/exception/ForbiddenException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/exception/HttpException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/exception/TooManyRequestsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/exception/UnauthorizedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/exception/UserAlreadyExistException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/logger/FileLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/logger/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/model/Transaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/repository/AssetRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/repository/LocalUserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/repository/RemoteAssetRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/repository/UserRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/util/ApiResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/util/ErrorLoggerUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/util/FileConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/bg/sofia/uni/fmi/mjt/crypto/server/util/PasswordAuthentication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/crypto/server/cache/AssetsCacheTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/crypto/server/command/CommandExecutorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/bg/sofia/uni/fmi/mjt/crypto/server/repository/LocalUserRepositoryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
